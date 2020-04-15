@@ -1,12 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace ProyectoConjuto
 {
-    class Program
+     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            ClaseRaul luz1 = new ClaseRaul();
+            luz1.AddDato();
+            luz1.MostrarAPartirDe();
         }
     }
-}
+} 
